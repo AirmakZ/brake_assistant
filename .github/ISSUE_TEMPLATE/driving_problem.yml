@@ -1,0 +1,78 @@
+name: Driving problem
+description: An alert, a braking zone or the analysis does not behave as expected on a track or with a car.
+labels: ["driving"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. To prepare what is needed to reproduce the problem, open
+        **About > Report a problem… > Driving problem**, choose the session and click **Create package**.
+        The package (a .zip in your Downloads folder) contains the session recording, the reference lap,
+        the iRacing session data, the iRacing telemetry (.ibt) of the session if it was recorded, and the
+        program log. The diagnostic is copied to the clipboard at the same time.
+
+        The .ibt keeps only the channels needed to analyse the problem, so the package is small (a few MB).
+        Before adding the .ibt and the iRacing session data, the program removes from them your iRacing
+        name, ID and profile, those of the other drivers in the session and your car setup. You can still leave them out of
+        the package, but without the .ibt the session cannot be replayed exactly as you drove it.
+
+        To have the .ibt next time, press **Alt+L** once you are in the car in iRacing.
+  - type: input
+    id: track
+    attributes:
+      label: Track and layout
+      placeholder: "Monza (Grand Prix)"
+    validations:
+      required: true
+  - type: input
+    id: car
+    attributes:
+      label: Car
+      placeholder: "Porsche 911 Cup (992.2)"
+    validations:
+      required: true
+  - type: input
+    id: corner
+    attributes:
+      label: Corner or zone
+      description: The zone number or name in the program, if the problem is in one corner.
+      placeholder: "Zone 3 · Lesmo 1"
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of problem
+      options:
+        - The alert came too late or too early
+        - The alert said something wrong (pressure, trail, gears)
+        - An alert was missing, or there was one where there is no braking
+        - "\"abnormal speed\" when the speed was normal"
+        - A braking zone is wrong (position, merged or split)
+        - The analysis or Progress shows something wrong
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected and what happened instead. If you remember the lap, say which one.
+    validations:
+      required: true
+  - type: textarea
+    id: package
+    attributes:
+      label: Package
+      description: >-
+        Drag the .zip here. GitHub accepts attachments up to 25 MB: if it is larger, upload it to a
+        file-sharing service and paste the link. Do not modify the contents of the package: it is checked
+        when it arrives, and with a modified one the issue cannot be looked into.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Diagnostic
+      description: Paste here what was copied to the clipboard when the package was created.
+      render: text
+    validations:
+      required: true

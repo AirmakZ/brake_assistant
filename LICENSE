@@ -1,0 +1,61 @@
+BRAKE ASSISTANT - END USER LICENCE AGREEMENT (version 1)
+
+Copyright (c) 2026 Pedro Rojas. All rights reserved.
+
+By installing or using Brake Assistant (the "Software") you accept these
+terms. If you do not accept them, do not install or use the Software.
+
+1. Licence. You are granted a free, personal, non-exclusive and
+non-transferable licence to install and use the Software on your own
+computers for non-commercial purposes, except as section 2 allows.
+
+2. Coaching. You may use the Software while giving paid driving lessons
+or coaching, provided you tell your students that the Software is free
+and where to download it. You may not charge for the Software itself.
+
+3. Restrictions. Except as sections 2 and 5 allow, you may not: sell,
+rent, lend, redistribute or publish the Software, in whole or in part;
+modify, decompile or reverse engineer it; or include it in any other
+product or service.
+
+4. Your data. The recordings and settings you create are yours and stay
+on your computer, as do the reference laps you load. The Software only
+connects to the internet to check for and download new versions from
+GitHub; the automatic check can be turned off in Settings. You are
+solely responsible for the files you add to the Software, such as your
+own voices or reference laps, and for having the right to use them. In
+particular, you must not use a real person's voice, or a voice generated
+from it, without their consent.
+
+5. Third-party components. The Software includes components under their
+own licences, listed in licenses\THIRD_PARTY_NOTICES.txt in the
+installation folder. Those licences prevail for those components. In
+particular, Qt is distributed under the GNU Lesser General Public
+License v3: you may replace its libraries with a compatible version of
+your own, and modify or reverse engineer the Software to the extent
+needed to debug such replacements.
+
+6. No warranty. The Software is provided "as is", without warranty of
+any kind. It is not guaranteed to work without errors, and its alerts
+and analysis may be inaccurate. You are solely responsible for your
+driving and for following the rules of iRacing and of any competition
+you take part in.
+
+7. Limitation of liability. To the maximum extent permitted by law, the
+author is not liable for any damage arising from the use of, or the
+inability to use, the Software. Nothing in this agreement excludes any
+liability that cannot be excluded by law.
+
+8. Trademarks. iRacing and Garage 61 are trademarks of their respective
+owners. Brake Assistant is an independent project and is not affiliated
+with, sponsored or endorsed by either of them.
+
+9. Termination. This licence ends automatically if you breach these
+terms. You must then uninstall the Software.
+
+10. Changes. A new version of the Software may come with a new licence,
+which the Software will ask you to accept.
+
+11. Governing law. This agreement is governed by the laws of Spain. A
+Spanish translation is provided for convenience; if they differ, this
+English version prevails.

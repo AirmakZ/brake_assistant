@@ -1,0 +1,42 @@
+name: Application problem
+description: Something in the program does not work as it should (an error, a window, the audio, the settings…).
+labels: ["application"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. Before writing, open **About > Report a problem… > Application problem**
+        and click **Copy diagnostic**: it copies the version, the audio output, the settings you changed and the
+        end of the log, without your Windows user name.
+
+        If the problem is an alert, a braking zone or the analysis on a specific track or car, use the
+        **Driving problem** form instead: its package lets the problem be reproduced exactly.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you were doing, what you expected and what happened instead.
+      placeholder: "When I open Progress with the MX-5 at Spa, the window closes."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce it
+      description: If you know how to make it happen again.
+      placeholder: |
+        1. Load a reference lap for…
+        2. Click…
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Diagnostic
+      description: Paste here what **Copy diagnostic** copied.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Drag images here if they help to see the problem.
