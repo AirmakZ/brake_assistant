@@ -1,0 +1,45 @@
+name: Feature request
+description: Suggest an idea or improvement for the app.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share an idea! Please check existing issues and discussions first to avoid duplicates.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or need does it solve?
+      description: Describe the situation where you miss this (e.g. "When learning a new track I can't…").
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Braking alerts / audio
+        - Analysis / reports
+        - Interface / settings
+        - Tracks / cars support
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workaround or other approach you've thought of (optional).
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Screenshots, examples from other apps, etc. (optional).
