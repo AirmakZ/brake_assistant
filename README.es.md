@@ -1,10 +1,7 @@
 [English](README.md) | **Español**
 
 <h1>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/es/header_dark.png">
-    <img src="docs/es/header_light.png" width="500" alt="Brake Assistant: asistente de frenada para iRacing">
-  </picture>
+  <img src="docs/es/header.png" width="500" alt="Brake Assistant: asistente de frenada para iRacing">
 </h1>
 
 Brake Assistant es un asistente de frenada para iRacing. Compara la vuelta

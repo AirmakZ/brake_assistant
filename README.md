@@ -1,10 +1,7 @@
 **English** | [Español](README.es.md)
 
 <h1>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/en/header_dark.png">
-    <img src="docs/en/header_light.png" width="500" alt="Brake Assistant: braking assistant for iRacing">
-  </picture>
+  <img src="docs/en/header.png" width="500" alt="Brake Assistant: braking assistant for iRacing">
 </h1>
 
 Brake Assistant is a braking assistant for iRacing. It compares the lap in
