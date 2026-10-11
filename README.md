@@ -59,7 +59,7 @@ expire after 30 days.
 - **Volume shortcuts** on a key or a wheel button, without interfering
   with the iRacing controls.
 - **Interface in English and Spanish**, with light and dark themes, and
-  voices in both languages.
+  voices in English, Spanish and Catalan.
 
 ## Requirements
 

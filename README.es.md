@@ -18,7 +18,7 @@ perfeccionamiento de las frenadas.
 </p>
 
 **[Descargar la última versión](https://github.com/AirmakZ/brake_assistant/releases)** ·
-**[Documentación (wiki, en inglés)](https://github.com/AirmakZ/brake_assistant/wiki)**
+**[Documentación (wiki)](https://github.com/AirmakZ/brake_assistant/wiki/Inicio)**
 
 Las betas se publican como *Pre-release* en la
 [página de versiones](https://github.com/AirmakZ/brake_assistant/releases)
@@ -60,7 +60,7 @@ y caducan a los 30 días.
 - **Atajos de volumen** en una tecla o un botón del volante, sin
   interferir con los controles de iRacing.
 - **Interfaz en español e inglés**, con tema claro y oscuro, y voces en
-  ambos idiomas.
+  español, inglés y catalán.
 
 ## Requisitos
 
@@ -107,7 +107,7 @@ guía paso a paso completa está en
 
 ## Documentación
 
-La [wiki](https://github.com/AirmakZ/brake_assistant/wiki) (en inglés)
+La [wiki](https://github.com/AirmakZ/brake_assistant/wiki/Inicio)
 explica cada parte del programa: cómo funcionan los avisos, cómo elegir una
 buena vuelta de referencia, el análisis, los ajustes, las voces
 personalizadas, dónde se guardan los datos y la solución de problemas.
