@@ -28,7 +28,7 @@ expire after 30 days.
 ## Features
 
 - **Voice alerts for every braking zone.** Before each zone, the assistant
-  announces the braking intensity, the trail braking and the gear,
+  announces the braking intensity, the trail braking and the gears to downshift,
   followed by a countdown ("3, 2, 1, brake") that ends at the reference
   braking point. The timing adapts to the car's speed, your reaction time
   and the latency of your audio device.
@@ -54,6 +54,11 @@ expire after 30 days.
   <img src="docs/en/progress_light.png" width="49%" alt="Progress window, light theme">
 </p>
 
+- **Reference laps from Garage 61 without leaving the program.** Connect
+  your Garage 61 account, search laps for the car and track of your iRacing
+  session (filtered by season, setup, session type and track conditions)
+  and download one with a click. For now, it can access your own laps and
+  your teams' laps; any lap can still be exported as CSV on garage61.net.
 - **Track map** with the braking zones and the car's position.
 - **Corner names** for each zone, editable.
 - **Volume shortcuts** on a key or a wheel button, without interfering
@@ -86,9 +91,11 @@ and [Updates](https://github.com/AirmakZ/brake_assistant/wiki/Updates).
 
 ## Getting started
 
-1. On [garage61.net](https://garage61.net), export a lap with the same car
-   and track with **"Export to CSV"** (do not rename the file), and load it
-   with **"Load…"** on the **Reference lap** card.
+1. Click **"Load…"** on the **Reference lap** card. In the **"Garage 61
+   Community"** tab, connect your Garage 61 account, search the car and
+   track and choose **"Download and use"** on a lap. Or, on
+   [garage61.net](https://garage61.net), export a lap with **"Export to
+   CSV"** (do not rename the file) and drop it in the **"Local"** tab.
 2. In **Settings > Basic**, choose your audio output and voice, and
    calibrate your reaction time (recommended).
 3. Join an iRacing practice session with the program in **Live** mode. When
@@ -115,6 +122,9 @@ prepares what is needed for an application problem or for a problem with an
 alert or a braking on a track, and opens the matching form on GitHub.
 Suggestions are also welcome as
 [issues](https://github.com/AirmakZ/brake_assistant/issues).
+
+No GitHub account, or prefer to write privately? Email
+[brakeassistant.app@gmail.com](mailto:brakeassistant.app@gmail.com).
 
 ## Fair use
 

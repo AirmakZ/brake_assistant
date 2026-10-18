@@ -29,7 +29,7 @@ y caducan a los 30 días.
 ## Funciones
 
 - **Avisos por voz en cada frenada.** Antes de cada zona, el asistente
-  indica la intensidad de la frenada, el trail braking y la marcha, y
+  indica la intensidad de la frenada, el trail braking y las marchas a reducir, y
   emite una cuenta atrás («3, 2, 1, ya») que termina en el punto de frenada
   de la referencia. El momento del aviso se ajusta a la velocidad del
   coche, al tiempo de reacción del piloto y al retardo del equipo de audio.
@@ -55,6 +55,12 @@ y caducan a los 30 días.
   <img src="docs/es/progress_light.png" width="49%" alt="Ventana Progreso, tema claro">
 </p>
 
+- **Vueltas de referencia de Garage 61 sin salir del programa.** Con la
+  cuenta de Garage 61 conectada, se buscan vueltas del coche y el circuito
+  de la sesión de iRacing (filtradas por season, setup, tipo de sesión y
+  condiciones de pista) y se descarga una con un clic. Por el momento puede
+  ver las vueltas propias y las de los equipos; cualquier vuelta se puede
+  seguir exportando en CSV desde garage61.net.
 - **Mapa del circuito** con las zonas de frenada y la posición del coche.
 - **Nombres de curva** para cada zona, modificables.
 - **Atajos de volumen** en una tecla o un botón del volante, sin
@@ -89,10 +95,12 @@ y [Updates](https://github.com/AirmakZ/brake_assistant/wiki/Updates).
 
 ## Primeros pasos
 
-1. En [garage61.net](https://garage61.net), exportar una vuelta con el
-   mismo coche y circuito con **«Export to CSV»** (sin renombrar el
-   archivo) y cargarla con **«Cargar…»** en la tarjeta **Vuelta de
-   referencia**.
+1. Pulsar **«Cargar…»** en la tarjeta **Vuelta de referencia**. En la
+   pestaña **«Comunidad Garage 61»**, conectar la cuenta de Garage 61,
+   buscar el coche y el circuito y elegir **«Descargar y usar»** en una
+   vuelta. O bien, en [garage61.net](https://garage61.net), exportar una
+   vuelta con **«Export to CSV»** (sin renombrar el archivo) y arrastrarla
+   a la pestaña **«Local»**.
 2. En **Ajustes > Básico**, elegir la salida de audio y la voz, y calibrar
    el tiempo de reacción (recomendado).
 3. Entrar en una sesión de práctica de iRacing con el programa en modo
@@ -119,6 +127,9 @@ problema…»**. Prepara lo necesario para un problema de la aplicación o con
 un aviso o una frenada en un circuito, y abre el formulario
 correspondiente en GitHub. Las sugerencias también son bienvenidas como
 [incidencias](https://github.com/AirmakZ/brake_assistant/issues).
+
+¿No tienes cuenta en GitHub o prefieres escribir en privado? Escribe a
+[brakeassistant.app@gmail.com](mailto:brakeassistant.app@gmail.com).
 
 ## Uso responsable
 
