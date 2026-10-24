@@ -11,7 +11,7 @@ you finish, analyzes each braking against the reference.
 
 The tool is intended solely for learning and refining your braking.
 
-[![Brake Assistant Demo](https://img.youtube.com/vi/ntihyo6Evlw/maxresdefault.jpg)](https://www.youtube.com/watch?v=ntihyo6Evlw)
+[![Brake Assistant Demo](https://img.youtube.com/vi/RL3QLNqzIlw/maxresdefault.jpg)](https://www.youtube.com/watch?v=RL3QLNqzIlw)
 
 **[Download the latest version](https://github.com/AirmakZ/brake_assistant/releases)** ·
 **[Documentation (wiki)](https://github.com/AirmakZ/brake_assistant/wiki)**
