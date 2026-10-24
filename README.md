@@ -13,11 +13,6 @@ The tool is intended solely for learning and refining your braking.
 
 [![Brake Assistant Demo](https://img.youtube.com/vi/ntihyo6Evlw/maxresdefault.jpg)](https://www.youtube.com/watch?v=ntihyo6Evlw)
 
-<p align="center">
-  <img src="docs/en/main_dark.png" width="49%" alt="Main window while driving at Monza, dark theme">
-  <img src="docs/en/main_light.png" width="49%" alt="Main window while driving at Monza, light theme">
-</p>
-
 **[Download the latest version](https://github.com/AirmakZ/brake_assistant/releases)** ·
 **[Documentation (wiki)](https://github.com/AirmakZ/brake_assistant/wiki)**
 
@@ -26,6 +21,11 @@ Betas are published as *Pre-release* on the
 expire after 30 days.
 
 ---
+
+<p align="center">
+  <img src="docs/en/main_dark.png" width="49%" alt="Main window while driving at Monza, dark theme">
+  <img src="docs/en/main_light.png" width="49%" alt="Main window while driving at Monza, light theme">
+</p>
 
 ## Features
 
