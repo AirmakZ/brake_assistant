@@ -20,6 +20,8 @@ Betas are published as *Pre-release* on the
 [releases page](https://github.com/AirmakZ/brake_assistant/releases) and
 expire after 30 days.
 
+For more videos visit the app [Youtube channel](https://www.youtube.com/@brake_assistant)
+
 ---
 
 <p align="center">
